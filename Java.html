@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #gul{
+        width: 80px;
+        height: 30px;
+        margin-top: 30vh;
+        border: none;
+        background-color: red;
+        font-size: 20px;
+        }
+        #gul:active{
+            color: aqua;
+            font-size: 20px;
+        }
+        body{
+            display: flex;
+            font-family: "Freckle Face", system-ui;
+            font-style: normal;
+            align-items: center;
+            font-weight: 400;
+        }
+    </style>
+<body>
+    <button class="green-botton" id = "gul">save</button>
+    <script>
+        let gul = document.getElementById('gul')
+        gul.style.borderRadius = "25px"
+        gul.addEventListener("click", function(){
+            if (gul.style.backgroundColor = "red"){
+                (gul.style.backgroundColor = "green");
+            } else {
+                gul.style.backgroundColor = "red";
+                
+            }
+        })
+    </script>
+</body>
+</html>

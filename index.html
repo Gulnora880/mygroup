@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя группа - ПИН-231</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    ..............
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                <h1>Образовательный портал "Big Data"</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" class="active"><i class="fas fa-home"></i> Главная</a></li>
+                    <li><a href="students.html"><i class="fas fa-users"></i> Студенты</a></li>
+                    <li><a href="modules.html"><i class="fas fa-book"></i> Модули</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Мобильное меню -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="index.html" class="active"><i class="fas fa-home"></i> Главная</a></li>
+            <li><a href="students.html"><i class="fas fa-users"></i> Студенты</a></li>
+            <li><a href="modules.html"><i class="fas fa-book"></i> Модули</a></li>
+        </ul>
+    </div>
+
+    <!-- Основной контент -->
+    <main class="container main-content">
+        <section class="group-info">
+            <h2 class="section-title">Группа Bd-1-24</h2>
+            <div class="group-header">
+                <div class="group-photo">
+                    <!-- В реальном проекте здесь будет изображение -->
+                    <div class="photo-placeholder">
+                        <i class="fas fa-users"></i>
+                        <p>Фото группы</p>
+                    </div>
+                </div>
+                <div class="group-details">
+                    <div class="detail-card">
+                        <i class="fas fa-university"></i>
+                        <h3>Направление</h3>
+                        <p>09.03.04 "Большие данные"</p>
+                    </div>
+                    <div class="detail-card">
+                        <i class="fas fa-user-graduate"></i>
+                        <h3>Курс</h3>
+                        <p>2 курс (2023-2024 уч. год)</p>
+                    </div>
+                    <div class="detail-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Количество студентов</h3>
+                        <p>23 человека</p>
+                    </div>
+                    <div class="detail-card">
+                        <i class="fas fa-user-tie"></i>
+                        <h3>Староста</h3>
+                        <p>Гламидинова Айдай Дооранбековна</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3><i class="fas fa-chalkboard-teacher"></i> Куратор</h3>
+                    <p><strong>Шермаматов Ж. Ж.</strong></p>
+                    <p>Доцент кафедры программной инженерии</p>
+                    <p><i class="fas fa-envelope"></i> m.petrova@university.ru</p>
+                    <p><i class="fas fa-door-open"></i> Кабинет 405</p>
+                </div>
+
+                <div class="info-card">
+                    <h3><i class="fas fa-building"></i> Деканат</h3>
+                    <p>Корпус 3, этаж 2, кабинет 321</p>
+                    <p><i class="fas fa-phone"></i> +7 (XXX) XXX-XX-XX</p>
+                    <p><i class="fas fa-clock"></i> Пн-Пт: 9:00-17:00</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="quick-links">
+            <h2 class="section-title">Быстрые ссылки</h2>
+            <div class="links-grid">
+                <a href="students.html" class="link-card">
+                    <i class="fas fa-users fa-2x"></i>
+                    <h3>Список студентов</h3>
+                    <p>Информация о всех студентах группы</p>
+                </a>
+                <a href="modules.html" class="link-card">
+                    <i class="fas fa-book fa-2x"></i>
+                    <h3>Учебные модули</h3>
+                    <p>Расписание и учебные дисциплины</p>
+                </a>
+                <a href="#" class="link-card" id="scheduleLink">
+                    <i class="fas fa-calendar fa-2x"></i>
+                    <h3>Расписание</h3>
+                    <p>Актуальное расписание занятий</p>
+                </a>
+                
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Образовательный портал "Big Data". Группа Bd-1-24</p>
+            <p>Для вопросов и предложений: <a href="mailto:pin-231@edu.university.ru">pin-231@edu.university.ru</a></p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

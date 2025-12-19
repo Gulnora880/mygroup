@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Учебные модули - Группа ПИН-231</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modules.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                <h1>Образовательный портал "Big Data"</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Главная</a></li>
+                    <li><a href="students.html"><i class="fas fa-users"></i> Студенты</a></li>
+                    <li><a href="modules.html" class="active"><i class="fas fa-book"></i> Модули</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i> Главная</a></li>
+            <li><a href="students.html"><i class="fas fa-users"></i> Студенты</a></li>
+            <li><a href="modules.html" class="active"><i class="fas fa-book"></i> Модули</a></li>
+        </ul>
+    </div>
+
+           <div class="container">
+        <header>
+            <h1><i class="fas fa-graduation-cap"></i> Успеваемость студентов</h1>
+            <p class="subtitle">Модуль: 7 предметов, 23 студента</p>
+        </header>
+        
+        <div class="controls">
+            <div class="stats">
+                <div class="stat-box">
+                    <h3>Студентов</h3>
+                    <p id="student-count">23</p>
+                </div>
+                <div class="stat-box">
+                    <h3>Предметов</h3>
+                    <p id="subject-count">7</p>
+                </div>
+                <div class="stat-box">
+                    <h3>Изменено оценок</h3>
+                    <p id="edited-count">0</p>
+                </div>
+            </div>
+            
+            <div class="actions">
+                <button class="btn btn-secondary" id="reset-btn">
+                    <i class="fas fa-undo"></i> Сбросить
+                </button>
+                <button class="btn btn-primary" id="calculate-btn">
+                    <i class="fas fa-calculator"></i> Рассчитать средние
+                </button>
+            </div>
+        </div>
+        
+        <div class="table-container">
+            <table id="grades-table">
+                <thead>
+                    <tr>
+                        <th class="student-col">Студент</th>
+                        <!-- Предметы будут добавлены через JavaScript -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Строки студентов будут добавлены через JavaScript -->
+                </tbody>
+                <tfoot>
+                    <!-- Средние по предметам будут добавлены через JavaScript -->
+                </tfoot>
+            </table>
+        </div>
+        
+        <div class="footer-info">
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-color legend-edited"></div>
+                    <span>Измененная оценка</span>
+                </div>
+                <div class="legend-item">
+                    <i class="fas fa-info-circle" style="color: #4b6cb7;"></i>
+                    <span>Кликните на оценку для редактирования</span>
+                </div>
+            </div>
+            <div>
+                <p>Последнее обновление: <span id="last-updated">-</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="modules.js"></script>
+</body>
+</html>

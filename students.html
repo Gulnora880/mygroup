@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Студенты - Группа ПИН-231</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="students.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                <h1>Образовательный портал "Big Data"</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Главная</a></li>
+                    <li><a href="students.html" class="active"><i class="fas fa-users"></i> Студенты</a></li>
+                    <li><a href="modules.html"><i class="fas fa-book"></i> Модули</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i> Главная</a></li>
+            <li><a href="students.html" class="active"><i class="fas fa-users"></i> Студенты</a></li>
+            <li><a href="modules.html"><i class="fas fa-book"></i> Модули</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-user-graduate"></i> Студенты группы</h1>
+            <p class="subtitle">Всего студентов: <span id="studentCount">23</span></p>
+            
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Поиск по имени или фамилии...">
+                <button id="searchBtn"><i class="fas fa-search"></i></button>
+                <button id="resetBtn"><i class="fas fa-redo"></i> Сброс</button>
+            </div>
+            
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="male">Мужчины</button>
+                <button class="filter-btn" data-filter="female">Женщины</button>
+            </div>
+        </header>
+
+        <main>
+            <div class="students-grid" id="studentsContainer">
+                <!-- Студенты будут загружены через JavaScript -->
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2024 Студенческая группа. Всего студентов: 23</p>
+            <p class="footer-info">Для добавления фото создайте папку "images" и добавьте файлы: student1.jpg, student2.jpg ... student23.jpg</p>
+        </footer>
+    </div>
+
+    <!-- Модальное окно для детальной информации -->
+    <div id="studentModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody">
+                <!-- Контент модального окна -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Образовательный портал "Big Da". Группа Bd-1-24</p>
+            <p>Всего студентов: <span id="totalStudents">0</span></p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="students.js"></script>
+</body>
+</html>
