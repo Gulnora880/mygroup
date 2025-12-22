@@ -1,215 +1,216 @@
-// Данные студентов (можно заменить на свои)
+// Данные студентов (исправлены пол и email)
 const studentsData = [
   {
     id: 1,
-    name: "Иван",
-    surname: "Иванов",
-    gender: "male",
-    group: "ИС-101",
-    birthYear: 2002,
-    email: "ivanov@edu.ru",
+    name: "Бегимай",
+    surname: "Абдиева",
+    gender: "female",
+    group: "Bd-1-24",
+    birthYear: 2006,
+    email: "abdijeva@edu.ru",
   },
   {
     id: 2,
-    name: "Мария",
-    surname: "Петрова",
-    gender: "female",
-    group: "ИС-101",
-    birthYear: 2003,
-    email: "petrova@edu.ru",
+    name: "Нурлан",
+    surname: "Абдилазизов",
+    gender: "male",
+    group: "Bd-1-24",
+    birthYear: 2006,
+    email: "abdilazizov@edu.ru",
   },
   {
     id: 3,
-    name: "Алексей",
-    surname: "Сидоров",
-    gender: "male",
-    group: "ИС-101",
-    birthYear: 2002,
-    email: "sidorov@edu.ru",
+    name: "Сезимай",
+    surname: "Абдираимова",
+    gender: "female",
+    group: "Bd-1-24",
+    birthYear: 2007,
+    email: "abdiraimova@edu.ru",
   },
   {
     id: 4,
-    name: "Екатерина",
-    surname: "Смирнова",
+    name: "Наргиза",
+    surname: "Абдилманапова",
     gender: "female",
-    group: "ИС-101",
-    birthYear: 2003,
-    email: "smirnova@edu.ru",
+    group: "Bd-1-24",
+    birthYear: 2007,
+    email: "abdilmanapova@edu.ru",
   },
   {
     id: 5,
-    name: "Дмитрий",
-    surname: "Кузнецов",
+    name: "Нурислам",
+    surname: "Абдуманапов",
     gender: "male",
-    group: "ИС-101",
-    birthYear: 2002,
-    email: "kuznetsov@edu.ru",
+    group: "Bd-1-24",
+    birthYear: 2007,
+    email: "abdumanapov@edu.ru",
   },
   {
     id: 6,
-    name: "Анна",
-    surname: "Васильева",
+    name: "Гулнора",
+    surname: "Азамова",
     gender: "female",
-    group: "ИС-101",
-    birthYear: 2003,
-    email: "vasilyeva@edu.ru",
+    group: "Bd-1-24",
+    birthYear: 2007,
+    email: "azamova@edu.ru",
   },
   {
     id: 7,
-    name: "Сергей",
-    surname: "Попов",
-    gender: "male",
-    group: "ИС-101",
-    birthYear: 2002,
-    email: "popov@edu.ru",
+    name: "Сагынай",
+    surname: "Асанова",
+    gender: "female",
+    group: "Bd-1-24",
+    birthYear: 2007,
+    email: "asanova@edu.ru",
   },
   {
     id: 8,
-    name: "Ольга",
-    surname: "Новикова",
-    gender: "female",
-    group: "ИС-101",
-    birthYear: 2003,
-    email: "novikova@edu.ru",
+    name: "Адилет",
+    surname: "Балтабаев",
+    gender: "male",
+    group: "Bd-1-24",
+    birthYear: 2006,
+    email: "baltabaev@edu.ru",
   },
   {
     id: 9,
-    name: "Андрей",
-    surname: "Морозов",
-    gender: "male",
-    group: "ИС-101",
-    birthYear: 2002,
-    email: "morozov@edu.ru",
+    name: "Аяна",
+    surname: "Боркошова",
+    gender: "female",
+    group: "Bd-1-24",
+    birthYear: 2006,
+    email: "borkoshova@edu.ru",
   },
   {
     id: 10,
-    name: "Наталья",
-    surname: "Волкова",
+    name: "Айдай",
+    surname: "Гламидинова",
     gender: "female",
-    group: "ИС-101",
-    birthYear: 2003,
-    email: "volkova@edu.ru",
+    group: "Bd-1-24",
+    birthYear: 2006,
+    email: "glamidinova@edu.ru",
   },
   {
     id: 11,
-    name: "Павел",
-    surname: "Алексеев",
-    gender: "male",
-    group: "ИС-101",
-    birthYear: 2002,
-    email: "alekseev@edu.ru",
+    name: "Жаңылай",
+    surname: "Жумаева",
+    gender: "female",
+    group: "Bd-1-24",
+    birthYear: 2007,
+    email: "zhumaeva@edu.ru",
   },
   {
     id: 12,
-    name: "Юлия",
-    surname: "Лебедева",
+    name: "Бегимай",
+    surname: "Куштарбек кызы",
     gender: "female",
-    group: "ИС-101",
-    birthYear: 2003,
-    email: "lebedeva@edu.ru",
+    group: "Bd-1-24",
+    birthYear: 2006,
+    email: "kushtarbek@edu.ru",
   },
   {
     id: 13,
-    name: "Михаил",
-    surname: "Семенов",
+    name: "Мухаммедюсуф",
+    surname: "Райимжанов",
     gender: "male",
-    group: "ИС-101",
-    birthYear: 2002,
-    email: "semenov@edu.ru",
+    group: "Bd-1-24",
+    birthYear: 2006,
+    email: "raimzhanov@edu.ru",
   },
   {
     id: 14,
-    name: "Елена",
-    surname: "Егорова",
-    gender: "female",
-    group: "ИС-101",
-    birthYear: 2003,
-    email: "egorova@edu.ru",
+    name: "Мухаммедрасул",
+    surname: "Равшанов",
+    gender: "male",
+    group: "Bd-1-24",
+    birthYear: 2006,
+    email: "ravshanov@edu.ru",
   },
   {
     id: 15,
-    name: "Артем",
-    surname: "Павлов",
+    name: "Нозимжон",
+    surname: "Рустамбаев",
     gender: "male",
-    group: "ИС-101",
-    birthYear: 2002,
-    email: "pavlov@edu.ru",
+    group: "Bd-1-24",
+    birthYear: 2007,
+    email: "rustambaev@edu.ru",
   },
   {
     id: 16,
-    name: "Татьяна",
-    surname: "Козлова",
+    name: "Бүуркия",
+    surname: "Садибакасова",
     gender: "female",
-    group: "ИС-101",
-    birthYear: 2003,
-    email: "kozlova@edu.ru",
+    group: "Bd-1-24",
+    birthYear: 2007,
+    email: "sadibakasova@edu.ru",
   },
   {
     id: 17,
-    name: "Владимир",
-    surname: "Степанов",
-    gender: "male",
-    group: "ИС-101",
-    birthYear: 2002,
-    email: "stepanov@edu.ru",
+    name: "Гулина",
+    surname: "Сайпидинова",
+    gender: "female",
+    group: "Bd-1-24",
+    birthYear: 2006,
+    email: "saipidinova@edu.ru",
   },
   {
     id: 18,
-    name: "Светлана",
-    surname: "Николаева",
-    gender: "female",
-    group: "ИС-101",
-    birthYear: 2003,
-    email: "nikolaeva@edu.ru",
+    name: "Өмүрбек",
+    surname: "Тагаев",
+    gender: "male",
+    group: "Bd-1-24",
+    birthYear: 2006,
+    email: "tagaev@edu.ru",
   },
   {
     id: 19,
-    name: "Константин",
-    surname: "Орлов",
-    gender: "male",
-    group: "ИС-101",
-    birthYear: 2002,
-    email: "orlov@edu.ru",
+    name: "Нозаним",
+    surname: "Хажиматова",
+    gender: "female",
+    group: "Bd-1-24",
+    birthYear: 2007,
+    email: "khazhimatova@edu.ru",
   },
   {
     id: 20,
-    name: "Алиса",
-    surname: "Андреева",
-    gender: "female",
-    group: "ИС-101",
-    birthYear: 2003,
-    email: "andreeva@edu.ru",
+    name: "Ырысгелди",
+    surname: "Шарабидинов",
+    gender: "male",
+    group: "Bd-1-24",
+    birthYear: 2007,
+    email: "sharabidinov@edu.ru",
   },
   {
     id: 21,
-    name: "Георгий",
-    surname: "Макаров",
-    gender: "male",
-    group: "ИС-101",
-    birthYear: 2002,
-    email: "makarov@edu.ru",
+    name: "Гүлшанай",
+    surname: "Эгемназарова",
+    gender: "female",
+    group: "Bd-1-24",
+    birthYear: 2006,
+    email: "egemnazarova@edu.ru",
   },
   {
     id: 22,
-    name: "Виктория",
-    surname: "Захарова",
+    name: "Арууке",
+    surname: "Эмилбек кызы",
     gender: "female",
-    group: "ИС-101",
-    birthYear: 2003,
-    email: "zakharova@edu.ru",
+    group: "Bd-1-24",
+    birthYear: 2006,
+    email: "emilbek@edu.ru",
   },
   {
-    id: 23,
-    name: "Роман",
-    surname: "Борисов",
-    gender: "male",
-    group: "ИС-101",
-    birthYear: 2002,
-    email: "borisov@edu.ru",
+    id: 9,
+    name: "Элайым",
+    surname: "Долоева",
+    gender: "female",
+    group: "Bd-1-24",
+    birthYear: 2006,
+    email: "doloeva@edu.ru",
   },
 ];
+ 
 
-// Элементы DOM
+// DOM элементы
 const studentsContainer = document.getElementById("studentsContainer");
 const searchInput = document.getElementById("searchInput");
 const searchBtn = document.getElementById("searchBtn");
@@ -219,145 +220,213 @@ const studentModal = document.getElementById("studentModal");
 const modalBody = document.getElementById("modalBody");
 const closeModal = document.querySelector(".close");
 
-// Текущий фильтр
+// Переменные состояния
 let currentFilter = "all";
 let currentSearch = "";
 
-// Инициализация
-document.addEventListener("DOMContentLoaded", () => {
+// Инициализация при загрузке страницы
+document.addEventListener("DOMContentLoaded", function () {
   renderStudents(studentsData);
+  updateStudentCount();
   setupEventListeners();
 });
 
-// Рендер студентов
+// Функция рендера студентов
 function renderStudents(students) {
   studentsContainer.innerHTML = "";
 
-  students.forEach((student) => {
+  if (students.length === 0) {
+    studentsContainer.innerHTML = `
+      <div class="no-results">
+        <i class="fas fa-search"></i>
+        <p>Студенты не найдены</p>
+      </div>
+    `;
+    return;
+  }
+
+  students.forEach(function (student) {
     const studentCard = document.createElement("div");
     studentCard.className = "student-card";
-    studentCard.dataset.gender = student.gender;
+    studentCard.setAttribute("data-gender", student.gender);
 
-    // Пытаемся загрузить фото, если нет - используем иконку
-    const photoPath = `student.id.jpeg`;
+    // Определяем путь к фото
+    const photoPath = `photos/student${student.id}.jpg`;
+    const defaultIcon =
+      student.gender === "male"
+        ? '<i class="fas fa-male no-photo-icon"></i>'
+        : '<i class="fas fa-female no-photo-icon"></i>';
 
+    // Создаем HTML для карточки
     studentCard.innerHTML = `
-            <div class="photo-container">
-                <img src="student.id.jpeg" alt="" 
-                     class="student-photo" onerror="this.onerror=null; this.src='student.id.jpeg'; this.parentElement.innerHTML='<i class=\"fas fa-user no-photo\"></i>';">
-            </div>
-            <div class="student-info">
-                <h3>${student.surname} ${student.name}</h3>
-                <div class="student-id">Студент ID: ${student.id
-                  .toString()
-                  .padStart(3, "0")}</div>
-                <div class="student-details">
-                    <p><i class="fas fa-users"></i> Группа: ${student.group}</p>
-                    <p><i class="fas fa-birthday-cake"></i> Год рождения: ${
-                      student.birthYear
-                    }</p>
-                </div>
-            </div>
-        `;
+      <div class="photo-container">
+        <img src="${photoPath}" 
+             alt="${student.name} ${student.surname}" 
+             class="student-photo"
+             onerror="this.style.display='none'; 
+                      this.parentElement.querySelector('.no-photo-fallback').style.display='flex';">
+        <div class="no-photo-fallback" style="display: none; width: 100px; height: 100px; background: #f0f0f0; border-radius: 50%; align-items: center; justify-content: center;">
+          ${defaultIcon}
+        </div>
+      </div>
+      <div class="student-info">
+        <h3>${student.surname} ${student.name}</h3>
+        <div class="student-id">Студент ID: ${String(student.id).padStart(
+          3,
+          "0"
+        )}</div>
+        <div class="student-details">
+          <p><i class="fas fa-users"></i> ${student.group}</p>
+          <p><i class="fas fa-birthday-cake"></i> ${student.birthYear}</p>
+        </div>
+      </div>
+    `;
 
-    studentCard.addEventListener("click", () => openStudentModal(student));
+    // Добавляем обработчик клика
+    studentCard.addEventListener("click", function () {
+      openStudentModal(student);
+    });
+
     studentsContainer.appendChild(studentCard);
   });
+}
+
+// Обновление счетчика студентов
+function updateStudentCount(students = studentsData) {
+  const countElement = document.getElementById("studentCount");
+  if (countElement) {
+    countElement.textContent = students.length;
+  }
 }
 
 // Настройка обработчиков событий
 function setupEventListeners() {
   // Поиск
-  searchBtn.addEventListener("click", performSearch);
-  searchInput.addEventListener("keyup", (e) => {
-    if (e.key === "Enter") performSearch();
-  });
+  if (searchBtn) {
+    searchBtn.addEventListener("click", performSearch);
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener("keyup", function (e) {
+      if (e.key === "Enter") {
+        performSearch();
+      }
+    });
+  }
 
   // Сброс
-  resetBtn.addEventListener("click", () => {
-    searchInput.value = "";
-    currentSearch = "";
-    applyFilters();
-  });
+  if (resetBtn) {
+    resetBtn.addEventListener("click", function () {
+      searchInput.value = "";
+      currentSearch = "";
+      renderStudents(studentsData);
+      updateStudentCount();
+    });
+  }
 
   // Фильтры
-  filterBtns.forEach((btn) => {
-    btn.addEventListener("click", () => {
-      filterBtns.forEach((b) => b.classList.remove("active"));
+  filterBtns.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      // Убираем активный класс у всех кнопок
+      filterBtns.forEach(function (b) {
+        b.classList.remove("active");
+      });
+
+      // Добавляем активный класс текущей кнопке
       btn.classList.add("active");
-      currentFilter = btn.dataset.filter;
+
+      // Устанавливаем текущий фильтр
+      currentFilter = btn.getAttribute("data-filter");
+
+      // Применяем фильтры
       applyFilters();
     });
   });
 
-  // Модальное окно
-  closeModal.addEventListener("click", () => {
-    studentModal.style.display = "none";
-  });
+  // Закрытие модального окна
+  if (closeModal) {
+    closeModal.addEventListener("click", function () {
+      studentModal.style.display = "none";
+    });
+  }
 
-  window.addEventListener("click", (e) => {
+  // Закрытие модального окна при клике вне его
+  window.addEventListener("click", function (e) {
     if (e.target === studentModal) {
       studentModal.style.display = "none";
     }
   });
 }
 
-// Выполнение поиска
+// Поиск студентов
 function performSearch() {
   currentSearch = searchInput.value.toLowerCase().trim();
   applyFilters();
 }
 
-// Применение фильтров
+// Применение фильтров и поиска
 function applyFilters() {
   let filteredStudents = studentsData;
 
   // Применяем текстовый поиск
   if (currentSearch) {
-    filteredStudents = filteredStudents.filter(
-      (student) =>
+    filteredStudents = filteredStudents.filter(function (student) {
+      return (
         student.name.toLowerCase().includes(currentSearch) ||
-        student.surname.toLowerCase().includes(currentSearch)
-    );
+        student.surname.toLowerCase().includes(currentSearch) ||
+        student.group.toLowerCase().includes(currentSearch)
+      );
+    });
   }
 
   // Применяем фильтр по полу
   if (currentFilter !== "all") {
-    filteredStudents = filteredStudents.filter(
-      (student) => student.gender === currentFilter
-    );
+    filteredStudents = filteredStudents.filter(function (student) {
+      return student.gender === currentFilter;
+    });
   }
 
-  // Обновляем счетчик
-  document.getElementById("studentCount").textContent = filteredStudents.length;
-
-  // Рендерим отфильтрованных студентов
+  // Обновляем интерфейс
+  updateStudentCount(filteredStudents);
   renderStudents(filteredStudents);
 }
 
-// Открытие модального окна с информацией о студенте
+// Открытие модального окна
 function openStudentModal(student) {
-  const photoPath = `images/student${student.id}.jpg`;
+  const photoPath = `photos/student${student.id}.jpg`;
   const age = new Date().getFullYear() - student.birthYear;
+  const genderText = student.gender === "male" ? "Мужской" : "Женский";
 
+  // Создаем содержимое модального окна
   modalBody.innerHTML = `
-        <img src="${photoPath}" alt="${student.name} ${student.surname}" 
-             class="modal-photo" onerror="this.onerror=null; this.src=''; this.style.display='none';">
-        <h2>${student.surname} ${student.name}</h2>
-        <div class="modal-details">
-            <p><strong>ID студента:</strong> ${student.id
-              .toString()
-              .padStart(3, "0")}</p>
-            <p><strong>Группа:</strong> ${student.group}</p>
-            <p><strong>Год рождения:</strong> ${
-              student.birthYear
-            } (${age} лет)</p>
-            <p><strong>Пол:</strong> ${
-              student.gender === "male" ? "Мужской" : "Женский"
-            }</p>
-            <p><strong>Email:</strong> ${student.email}</p>
-        </div>
-    `;
+    <div class="modal-photo-container">
+      <img src="${photoPath}" 
+           alt="${student.name} ${student.surname}" 
+           class="modal-photo"
+           onerror="this.style.display='none'; 
+                    this.nextElementSibling.style.display='flex';">
+      <div class="modal-no-photo" style="display: none; width: 150px; height: 150px; background: #f0f0f0; border-radius: 50%; align-items: center; justify-content: center; margin: 0 auto 20px;">
+        <i class="fas ${
+          student.gender === "male" ? "fa-male" : "fa-female"
+        }" style="font-size: 60px; color: #666;"></i>
+      </div>
+    </div>
+    <h2>${student.surname} ${student.name}</h2>
+    <div class="modal-details">
+      <p><strong>ID студента:</strong> ${String(student.id).padStart(
+        3,
+        "0"
+      )}</p>
+      <p><strong>Группа:</strong> ${student.group}</p>
+      <p><strong>Год рождения:</strong> ${student.birthYear} (${age} лет)</p>
+      <p><strong>Пол:</strong> ${genderText}</p>
+      <p><strong>Email:</strong> <a href="mailto:${student.email}">${
+    student.email
+  }</a></p>
+    </div>
+  `;
 
+  // Показываем модальное окно
   studentModal.style.display = "block";
 }
+

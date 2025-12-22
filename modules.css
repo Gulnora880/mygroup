@@ -1,31 +1,31 @@
-
-        * {
-            margin: 0;
+* {
+     margin: 0;
             padding: 0;
             box-sizing: border-box;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+}
+        
         
         body {
-            background-color: #f5f7fa;
+            background-color: #eef1f6;
             color: #333;
             padding: 20px;
             line-height: 1.6;
         }
         
         .container {
-            max-width: 1400px;
+            
+            max-width: 1200px;
+            width: 100%;
             margin: 0 auto;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-            overflow: hidden;
+            padding: 0 20px;
+
         }
         
         header {
-            background: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+            background: #3717d5;
             color: white;
-            padding: 25px 30px;
+            padding: 1rem 0;
             border-bottom: 5px solid #3a56a4;
         }
         

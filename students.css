@@ -12,16 +12,17 @@ body {
 }
 
 .container {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 header {
     text-align: center;
     margin-bottom: 40px;
     padding: 20px;
-    background: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+    background: #3717d5;
     color: white;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
