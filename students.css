@@ -121,7 +121,7 @@ header h1 {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-color: #f0f0f0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,7 +162,7 @@ header h1 {
 
 .no-photo {
     font-size: 3rem;
-    color: #ccc;
+    color: rgba(255, 255, 255, 0.3);
 }
 
 footer {
@@ -221,32 +221,135 @@ footer {
     color: #000;
 }
 
-.modal-photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto 20px;
-    border: 5px solid #4b6cb7;
-}
-
-.modal h2 {
+/* Фото в модальном окне */
+.modal-photo-section {
     text-align: center;
-    color: #182848;
     margin-bottom: 20px;
 }
 
+.modal-photo-container {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.modal-photo-section h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Детали в модальном окне */
 .modal-details {
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .modal-details p {
     margin-bottom: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid #eee;
+    font-size: 16px;
+}
+
+.modal-details strong {
+    color: #555;
+    margin-right: 8px;
+}
+
+.modal-details i {
+    width: 20px;
+    margin-right: 8px;
+    color: #4b6cb7;
+}
+
+.modal-details a {
+    color: #333;
+    text-decoration: none;
+}
+
+.modal-details a:hover {
+    text-decoration: underline;
+}
+
+/* WhatsApp иконка */
+.whatsapp-icon {
+    color: #25D366;
+    margin-left: 6px;
+}
+
+.whatsapp-link {
+    color: #25D366;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.whatsapp-link:hover {
+    color: #128C7E;
+    text-decoration: underline;
+}
+
+/* Кнопки действий в модальном окне */
+.modal-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.whatsapp-btn, .call-btn {
+    flex: 1;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.whatsapp-btn {
+    background-color: #25D366;
+    color: white;
+    border: 2px solid #25D366;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E;
+    border-color: #128C7E;
+    color: white;
+}
+
+.call-btn {
+    background-color: transparent;
+    color: #4b6cb7;
+    border: 2px solid #4b6cb7;
+}
+
+.call-btn:hover {
+    background-color: #4b6cb7;
+    color: white;
 }
 
 /* Адаптивность */
@@ -268,6 +371,10 @@ footer {
         width: 100%;
         max-width: 300px;
     }
+    
+    .modal-actions {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 480px) {
@@ -283,4 +390,32 @@ footer {
     .filter-btn {
         width: 200px;
     }
+    
+    .photo-container {
+        height: 180px;
+    }
+    
+    .modal-photo-container {
+        width: 150px;
+        height: 150px;
+    }
+}
+/* Добавьте этот стиль в конец вашего CSS */
+.hidden {
+    display: none !important;
+}
+
+.student-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.modal-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }

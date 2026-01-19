@@ -1,4 +1,4 @@
-// Данные студентов (исправлены пол и email)
+// Данные студентов
 const studentsData = [
   {
     id: 1,
@@ -8,6 +8,7 @@ const studentsData = [
     group: "Bd-1-24",
     birthYear: 2006,
     email: "abdijeva@edu.ru",
+    phone: "+996558292325",
   },
   {
     id: 2,
@@ -17,6 +18,7 @@ const studentsData = [
     group: "Bd-1-24",
     birthYear: 2006,
     email: "abdilazizov@edu.ru",
+    phone: "+996220235423",
   },
   {
     id: 3,
@@ -26,6 +28,7 @@ const studentsData = [
     group: "Bd-1-24",
     birthYear: 2007,
     email: "abdiraimova@edu.ru",
+    phone: "+996221717159",
   },
   {
     id: 4,
@@ -35,6 +38,7 @@ const studentsData = [
     group: "Bd-1-24",
     birthYear: 2007,
     email: "abdilmanapova@edu.ru",
+    phone: "+996558200107",
   },
   {
     id: 5,
@@ -44,6 +48,7 @@ const studentsData = [
     group: "Bd-1-24",
     birthYear: 2007,
     email: "abdumanapov@edu.ru",
+    phone: "+996774126630",
   },
   {
     id: 6,
@@ -53,6 +58,7 @@ const studentsData = [
     group: "Bd-1-24",
     birthYear: 2007,
     email: "azamova@edu.ru",
+    phone: "+996704700727",
   },
   {
     id: 7,
@@ -62,6 +68,7 @@ const studentsData = [
     group: "Bd-1-24",
     birthYear: 2007,
     email: "asanova@edu.ru",
+    phone: "+996225266005",
   },
   {
     id: 8,
@@ -71,6 +78,7 @@ const studentsData = [
     group: "Bd-1-24",
     birthYear: 2006,
     email: "baltabaev@edu.ru",
+    phone: "+996706059128",
   },
   {
     id: 9,
@@ -80,6 +88,7 @@ const studentsData = [
     group: "Bd-1-24",
     birthYear: 2006,
     email: "borkoshova@edu.ru",
+    phone: "+996220914360",
   },
   {
     id: 10,
@@ -89,128 +98,140 @@ const studentsData = [
     group: "Bd-1-24",
     birthYear: 2006,
     email: "glamidinova@edu.ru",
+    phone: "+996703725183",
   },
   {
     id: 11,
-    name: "Жаңылай",
-    surname: "Жумаева",
-    gender: "female",
-    group: "Bd-1-24",
-    birthYear: 2007,
-    email: "zhumaeva@edu.ru",
-  },
-  {
-    id: 12,
-    name: "Бегимай",
-    surname: "Куштарбек кызы",
-    gender: "female",
-    group: "Bd-1-24",
-    birthYear: 2006,
-    email: "kushtarbek@edu.ru",
-  },
-  {
-    id: 13,
-    name: "Мухаммедюсуф",
-    surname: "Райимжанов",
-    gender: "male",
-    group: "Bd-1-24",
-    birthYear: 2006,
-    email: "raimzhanov@edu.ru",
-  },
-  {
-    id: 14,
-    name: "Мухаммедрасул",
-    surname: "Равшанов",
-    gender: "male",
-    group: "Bd-1-24",
-    birthYear: 2006,
-    email: "ravshanov@edu.ru",
-  },
-  {
-    id: 15,
-    name: "Нозимжон",
-    surname: "Рустамбаев",
-    gender: "male",
-    group: "Bd-1-24",
-    birthYear: 2007,
-    email: "rustambaev@edu.ru",
-  },
-  {
-    id: 16,
-    name: "Бүуркия",
-    surname: "Садибакасова",
-    gender: "female",
-    group: "Bd-1-24",
-    birthYear: 2007,
-    email: "sadibakasova@edu.ru",
-  },
-  {
-    id: 17,
-    name: "Гулина",
-    surname: "Сайпидинова",
-    gender: "female",
-    group: "Bd-1-24",
-    birthYear: 2006,
-    email: "saipidinova@edu.ru",
-  },
-  {
-    id: 18,
-    name: "Өмүрбек",
-    surname: "Тагаев",
-    gender: "male",
-    group: "Bd-1-24",
-    birthYear: 2006,
-    email: "tagaev@edu.ru",
-  },
-  {
-    id: 19,
-    name: "Нозаним",
-    surname: "Хажиматова",
-    gender: "female",
-    group: "Bd-1-24",
-    birthYear: 2007,
-    email: "khazhimatova@edu.ru",
-  },
-  {
-    id: 20,
-    name: "Ырысгелди",
-    surname: "Шарабидинов",
-    gender: "male",
-    group: "Bd-1-24",
-    birthYear: 2007,
-    email: "sharabidinov@edu.ru",
-  },
-  {
-    id: 21,
-    name: "Гүлшанай",
-    surname: "Эгемназарова",
-    gender: "female",
-    group: "Bd-1-24",
-    birthYear: 2006,
-    email: "egemnazarova@edu.ru",
-  },
-  {
-    id: 22,
-    name: "Арууке",
-    surname: "Эмилбек кызы",
-    gender: "female",
-    group: "Bd-1-24",
-    birthYear: 2006,
-    email: "emilbek@edu.ru",
-  },
-  {
-    id: 9,
     name: "Элайым",
     surname: "Долоева",
     gender: "female",
     group: "Bd-1-24",
     birthYear: 2006,
     email: "doloeva@edu.ru",
+    phone: "+996222216056",
+  },
+  {
+    id: 12,
+    name: "Жаңылай",
+    surname: "Жумаева",
+    gender: "female",
+    group: "Bd-1-24",
+    birthYear: 2007,
+    email: "zhumaeva@edu.ru",
+    phone: "+996701110054",
+  },
+  {
+    id: 13,
+    name: "Бегимай",
+    surname: "Куштарбек кызы",
+    gender: "female",
+    group: "Bd-1-24",
+    birthYear: 2006,
+    email: "kushtarbek@edu.ru",
+    phone: "+996220914360",
+  },
+  {
+    id: 14,
+    name: "Мухаммедюсуф",
+    surname: "Райимжанов",
+    gender: "male",
+    group: "Bd-1-24",
+    birthYear: 2006,
+    email: "raimzhanov@edu.ru",
+    phone: "+996222112120",
+  },
+  {
+    id: 15,
+    name: "Мухаммедрасул",
+    surname: "Равшанов",
+    gender: "male",
+    group: "Bd-1-24",
+    birthYear: 2006,
+    email: "ravshanov@edu.ru",
+    phone: "+996990767575",
+  },
+  {
+    id: 16,
+    name: "Нозимжон",
+    surname: "Рустамбаев",
+    gender: "male",
+    group: "Bd-1-24",
+    birthYear: 2007,
+    email: "rustambaev@edu.ru",
+    phone: "+996505553110",
+  },
+  {
+    id: 17,
+    name: "Бүуркия",
+    surname: "Садибакасова",
+    gender: "female",
+    group: "Bd-1-24",
+    birthYear: 2007,
+    email: "sadibakasova@edu.ru",
+    phone: "+996503001232",
+  },
+  {
+    id: 18,
+    name: "Гулина",
+    surname: "Сайпидинова",
+    gender: "female",
+    group: "Bd-1-24",
+    birthYear: 2006,
+    email: "saipidinova@edu.ru",
+    phone: "+996775465800",
+  },
+  {
+    id: 19,
+    name: "Өмүрбек",
+    surname: "Тагаев",
+    gender: "male",
+    group: "Bd-1-24",
+    birthYear: 2006,
+    email: "tagaev@edu.ru",
+    phone: "+996700901234",
+  },
+  {
+    id: 20,
+    name: "Нозаним",
+    surname: "Хажиматова",
+    gender: "female",
+    group: "Bd-1-24",
+    birthYear: 2007,
+    email: "khazhimatova@edu.ru",
+    phone: "+996553747172",
+  },
+  {
+    id: 21,
+    name: "Ырысгелди",
+    surname: "Шарабидинов",
+    gender: "male",
+    group: "Bd-1-24",
+    birthYear: 2007,
+    email: "sharabidinov@edu.ru",
+    phone: "+996223753395",
+  },
+  {
+    id: 22,
+    name: "Гүлшанай",
+    surname: "Эгемназарова",
+    gender: "female",
+    group: "Bd-1-24",
+    birthYear: 2006,
+    email: "egemnazarova@edu.ru",
+    phone: "+996507954490",
+  },
+  {
+    id: 23,
+    name: "Арууке",
+    surname: "Эмилбек кызы",
+    gender: "female",
+    group: "Bd-1-24",
+    birthYear: 2006,
+    email: "emilbek@edu.ru",
+    phone: "+996228081106",
   },
 ];
- 
 
-// DOM элементы
 const studentsContainer = document.getElementById("studentsContainer");
 const searchInput = document.getElementById("searchInput");
 const searchBtn = document.getElementById("searchBtn");
@@ -231,7 +252,7 @@ document.addEventListener("DOMContentLoaded", function () {
   setupEventListeners();
 });
 
-// Функция рендера студентов
+// Функция рендера студентов - УЛУЧШЕННАЯ ВЕРСИЯ
 function renderStudents(students) {
   studentsContainer.innerHTML = "";
 
@@ -250,31 +271,33 @@ function renderStudents(students) {
     studentCard.className = "student-card";
     studentCard.setAttribute("data-gender", student.gender);
 
-    // Определяем путь к фото
-    const photoPath = `photos/student${student.id}.jpg`;
-    const defaultIcon =
-      student.gender === "male"
-        ? '<i class="fas fa-male no-photo-icon"></i>'
-        : '<i class="fas fa-female no-photo-icon"></i>';
+    // Пробуем разные пути к фото
+    const photoPaths = [
+      `photos/student${student.id}.jpg`,
+      `photos/student${student.id}.jpeg`,
+      `photos/student${student.id}.png`,
+      `photos/${student.id}.jpg`,
+      `photos/${student.surname.toLowerCase()}.jpg`,
+      `photos/${student.name.toLowerCase()}.jpg`,
+    ];
 
     // Создаем HTML для карточки
     studentCard.innerHTML = `
       <div class="photo-container">
-        <img src="${photoPath}" 
-             alt="${student.name} ${student.surname}" 
-             class="student-photo"
-             onerror="this.style.display='none'; 
-                      this.parentElement.querySelector('.no-photo-fallback').style.display='flex';">
-        <div class="no-photo-fallback" style="display: none; width: 100px; height: 100px; background: #f0f0f0; border-radius: 50%; align-items: center; justify-content: center;">
-          ${defaultIcon}
-        </div>
+        ${photoPaths
+          .map(
+            (path, index) => `
+          <img src="${path}" 
+               alt="${student.name} ${student.surname}" 
+               class="student-photo ${index > 0 ? "hidden" : ""}"
+               onerror="if(this.classList.contains('hidden')) {this.style.display='none'} else {this.style.display='none'; const next = this.parentElement.querySelector('img.hidden'); if(next) {next.classList.remove('hidden')}}">
+        `
+          )
+          .join("")}
       </div>
       <div class="student-info">
         <h3>${student.surname} ${student.name}</h3>
-        <div class="student-id">Студент ID: ${String(student.id).padStart(
-          3,
-          "0"
-        )}</div>
+        <div class="student-id">ID: ${String(student.id).padStart(3, "0")}</div>
         <div class="student-details">
           <p><i class="fas fa-users"></i> ${student.group}</p>
           <p><i class="fas fa-birthday-cake"></i> ${student.birthYear}</p>
@@ -374,7 +397,8 @@ function applyFilters() {
       return (
         student.name.toLowerCase().includes(currentSearch) ||
         student.surname.toLowerCase().includes(currentSearch) ||
-        student.group.toLowerCase().includes(currentSearch)
+        student.group.toLowerCase().includes(currentSearch) ||
+        student.phone.includes(currentSearch)
       );
     });
   }
@@ -391,38 +415,73 @@ function applyFilters() {
   renderStudents(filteredStudents);
 }
 
-// Открытие модального окна
+// Открытие модального окна - УЛУЧШЕННАЯ ВЕРСИЯ
 function openStudentModal(student) {
-  const photoPath = `photos/student${student.id}.jpg`;
+  const photoPaths = [
+    `photos/student${student.id}.jpg`,
+    `photos/student${student.id}.jpeg`,
+    `photos/student${student.id}.png`,
+    `photos/${student.id}.jpg`,
+    `photos/${student.surname.toLowerCase()}.jpg`,
+    `photos/${student.name.toLowerCase()}.jpg`,
+  ];
+
   const age = new Date().getFullYear() - student.birthYear;
   const genderText = student.gender === "male" ? "Мужской" : "Женский";
 
+  // Форматируем номер телефона для отображения
+  const formattedPhone = formatPhoneNumber(student.phone);
+
+  // Создаем WhatsApp ссылку
+  const whatsappLink = `https://wa.me/${student.phone.replace(/\D/g, "")}`;
+
   // Создаем содержимое модального окна
   modalBody.innerHTML = `
-    <div class="modal-photo-container">
-      <img src="${photoPath}" 
-           alt="${student.name} ${student.surname}" 
-           class="modal-photo"
-           onerror="this.style.display='none'; 
-                    this.nextElementSibling.style.display='flex';">
-      <div class="modal-no-photo" style="display: none; width: 150px; height: 150px; background: #f0f0f0; border-radius: 50%; align-items: center; justify-content: center; margin: 0 auto 20px;">
-        <i class="fas ${
-          student.gender === "male" ? "fa-male" : "fa-female"
-        }" style="font-size: 60px; color: #666;"></i>
+    <div class="modal-photo-section">
+      <div class="modal-photo-container">
+        ${photoPaths
+          .map(
+            (path, index) => `
+          <img src="${path}" 
+               alt="${student.name} ${student.surname}" 
+               class="modal-photo ${index > 0 ? "hidden" : ""}"
+               onerror="if(this.classList.contains('hidden')) {this.style.display='none'} else {this.style.display='none'; const next = this.parentElement.querySelector('img.hidden'); if(next) {next.classList.remove('hidden')}}">
+        `
+          )
+          .join("")}
       </div>
+      <h2>${student.surname} ${student.name}</h2>
     </div>
-    <h2>${student.surname} ${student.name}</h2>
     <div class="modal-details">
-      <p><strong>ID студента:</strong> ${String(student.id).padStart(
-        3,
-        "0"
-      )}</p>
-      <p><strong>Группа:</strong> ${student.group}</p>
-      <p><strong>Год рождения:</strong> ${student.birthYear} (${age} лет)</p>
-      <p><strong>Пол:</strong> ${genderText}</p>
-      <p><strong>Email:</strong> <a href="mailto:${student.email}">${
-    student.email
-  }</a></p>
+      <p><strong><i class="fas fa-id-card"></i> ID студента:</strong> ${String(
+        student.id
+      ).padStart(3, "0")}</p>
+      <p><strong><i class="fas fa-users"></i> Группа:</strong> ${
+        student.group
+      }</p>
+      <p><strong><i class="fas fa-birthday-cake"></i> Год рождения:</strong> ${
+        student.birthYear
+      } (${age} лет)</p>
+      <p><strong><i class="fas ${
+        student.gender === "male" ? "fa-mars" : "fa-venus"
+      }"></i> Пол:</strong> ${genderText}</p>
+      <p><strong><i class="fas fa-envelope"></i> Email:</strong> <a href="mailto:${
+        student.email
+      }">${student.email}</a></p>
+      <p><strong><i class="fas fa-phone"></i> Телефон:</strong> 
+        <a href="${whatsappLink}" target="_blank" class="whatsapp-link" title="Написать в WhatsApp">
+          ${formattedPhone}
+          <i class="fab fa-whatsapp whatsapp-icon"></i>
+        </a>
+      </p>
+    </div>
+    <div class="modal-actions">
+      <a href="${whatsappLink}" target="_blank" class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i> Написать в WhatsApp
+      </a>
+      <a href="tel:${student.phone}" class="call-btn">
+        <i class="fas fa-phone"></i> Позвонить
+      </a>
     </div>
   `;
 
@@ -430,3 +489,16 @@ function openStudentModal(student) {
   studentModal.style.display = "block";
 }
 
+// Функция форматирования номера телефона
+function formatPhoneNumber(phone) {
+  // Формат: +996 (XXX) XXX-XXX
+  const cleaned = phone.replace(/\D/g, "");
+  if (cleaned.length === 13) {
+    const countryCode = cleaned.substring(0, 4);
+    const operator = cleaned.substring(4, 7);
+    const part1 = cleaned.substring(7, 10);
+    const part2 = cleaned.substring(10, 13);
+    return `${countryCode} (${operator}) ${part1}-${part2}`;
+  }
+  return phone;
+}
